@@ -1,6 +1,7 @@
 ## Visual Studio Build Outputs
 bin/
 obj/
+dist/
 [Dd]ebug/
 [Rr]elease/
 x64/

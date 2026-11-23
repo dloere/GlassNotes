@@ -10,6 +10,11 @@
     <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <Platforms>AnyCPU;ARM64;x64</Platforms>
+    <!-- dotnet publish 한 번으로 GlassNotes\dist\GlassNotes.exe 단일 파일 생성 (.NET 8 런타임 필요) -->
+    <PublishDir>dist\</PublishDir>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
   </PropertyGroup>
 
   <ItemGroup>
